@@ -32,10 +32,10 @@ This project aims to forecast CO2 levels using data collected from an STM32-base
 This project leverages the following STM32 projects:
 - [STM32 SDC30 CO2 Sensor](https://github.com/cherifon/STM32_SDC30_CO2_Sensor): Project for interfacing with the SDC30 CO2 sensor.
 - [STM32 16x2 LCD](https://github.com/cherifon/STM32_16x2_LCD): Project for displaying data on a 16x2 LCD screen.
-
+- 
 ## Data Collection
 
-The data is collected using the STM32 SDC30 CO2 sensor project. The sensor measures CO2 levels and logs the data, which is then transferred for processing and analysis.
+Data was collected over a period of two weeks in a single room at work. The measurements were taken using a CO2 sensor connected to an STM32 microcontroller. The collected data includes CO2 levels, temperature and humidity.
 
 ## Data Processing
 
