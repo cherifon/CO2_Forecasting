@@ -6,9 +6,9 @@ This repository contains scripts and notebooks for forecasting CO2 levels using 
 
 The repository is divided into several parts:
 
-1. **Data Collection**: A Python script for reading UART data from the STM32 CO2 sensor, saving it to a CSV file, and plotting the collected data when stopped with **CTRL+C**.
-2. **Data Enhancement**: A Python script for preprocessing the data by adding lags, splitting dates, and handling occupancy.
-3. **Forecasting**: A Colab notebook that performs time series forecasting on the enhanced data using SARIMAX models.
+1. **[Data Collection](Data_plot.py)**: A Python script for reading UART data from the STM32 CO2 sensor, saving it to a CSV file, and plotting the collected data when stopped with **CTRL+C**.
+2. **[Data Enhancement](Enhanche_data.py)**: A Python script for preprocessing the data by adding lags, splitting dates, and handling occupancy.
+3. **[Forecasting](CO2_prevision.ipynb)**: A Colab notebook that performs time series forecasting on the enhanced data using SARIMAX models.
 
 ## Table of Contents
 
